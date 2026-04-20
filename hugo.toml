@@ -1,24 +1,28 @@
-baseURL = 'https://example.org/'
-languageCode = 'en'
-title = 'My New Hugo Site'
+baseURL = 'https://blog.com/'
+languageCode = 'zh-CN'
+title = '我的个人博客'
 theme = 'hugo-theme-reimu'
 
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'zh-CN'
 [languages]
 [languages.en]
 languageName = 'English'
-weight = 1
+weight = 2
+contentDir = "content/en"
 [languages.zh-CN]
 languageName = '简体中文'
 weight = 1
+contentDir = "content/zh-CN" 
 hasCJKLanguage = true
 [languages.zh-TW]
 languageName = '繁體中文'
-weight = 1
+weight = 3
+contentDir = "content/zh-TW" 
 hasCJKLanguage = true
 [languages.ja]
 languageName = '日本語'
-weight = 1
+weight = 4
+contentDir = "content/ja" 
 hasCJKLanguage = true
 
 [markup.goldmark.extensions.passthrough]

@@ -30,6 +30,7 @@ hasCJKLanguage = true
 enable = true
 delimiters.block = [["\\[", "\\]"], ["$$", "$$"]]
 delimiters.inline = [["\\(", "\\)"], ["$", "$"]]
+<!-- DevOps PR test -->
 
 [markup.highlight]
 guessSyntax = true

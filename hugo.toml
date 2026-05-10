@@ -2,6 +2,7 @@ baseURL = 'https://blog.com/'
 languageCode = 'zh-CN'
 title = '我的个人博客'
 theme = 'hugo-theme-reimu'
+<!-- DevOps PR test -->
 
 defaultContentLanguage = 'zh-CN'
 [languages]
